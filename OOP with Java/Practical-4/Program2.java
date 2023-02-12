@@ -16,7 +16,7 @@ class Triangle {
         return ans;
     }
 }
-public class Program_2 {
+public class Program2 {
     public static void main(String[] args) {
         
         Triangle t1 = new Triangle();
