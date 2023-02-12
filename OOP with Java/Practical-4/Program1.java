@@ -1,10 +1,8 @@
 import java.util.Scanner;
-
 class Student {
     String name;
     int id;
 }
-
 public class Program1 {
     public static void main(String []args){
 
@@ -16,9 +14,7 @@ public class Program1 {
         System.out.print("Roll No. : ");
         s1.id =  in.nextInt();
 
-
         System.out.println("Name : "+s1.name);
         System.out.println("Roll No. : "+s1.id );
-
     }
 }

@@ -1,3 +1,4 @@
+//Returning Object
 public class Program3_ro {
     public static void main(String[] args) {
        Point p = createPoint(10, 20);
@@ -16,4 +17,3 @@ public class Program3_ro {
        this.y = y;
     }
  }
- 

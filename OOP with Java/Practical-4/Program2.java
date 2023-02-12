@@ -7,7 +7,6 @@ class Triangle {
     int perimeter() {
 
         int ans = x+y+z;
-
         return ans;
     }
     float area() {
@@ -23,6 +22,5 @@ public class Program2 {
 
         System.out.println("The perimeter of Triangle : "+t1.perimeter());
         System.out.println("The area of Triangle : "+t1.area());
-
     }
 }

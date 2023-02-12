@@ -31,4 +31,3 @@ class AccessModifiers {
        System.out.println("publicVar : " + obj.publicVar);
     }
  }
- 
