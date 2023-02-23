@@ -1,2 +1,2 @@
 # Object Oreinted Programming with Java
-Java Practical
+Java Lab session program.
