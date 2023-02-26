@@ -18,12 +18,15 @@ class Time {
     void setTime(int h, int m, int s) {
         if (h < 0 || h > 23) {
             System.out.println("Invalid hour value");
+            return;
         }
         if (m < 0 || m > 59) {
             System.out.println("Invalid minute value");
+            return;
         }
         if (s < 0 || s > 59) {
             System.out.println("Invalid second value");
+            return;
         }
         this.hr = h;
         this.min = m;
@@ -43,7 +46,8 @@ public class TimeFormat {
         Time t2 = new Time(60000);
         t2.display();
 
-        Time t3 = new Time();
-        t3.setTime(25, 15, 78);
+        Time t3 = new Time(25,30,15);
+        
+        Time t4 = new Time(15,75,15);
     }
 }
