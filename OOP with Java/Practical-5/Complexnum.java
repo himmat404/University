@@ -73,7 +73,6 @@ public class Complexnum {
         
         c3 = c3.Division(c1, c2);
         System.out.println("Division of ("+c1.real+" + "+c1.imaginary+"i) / ("+c2.real+" + "+c2.imaginary+"i) = "+c3.real+" + "+c3.imaginary+"i");
-        
 
     }
 
